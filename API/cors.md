@@ -19,8 +19,6 @@ Windows
 к нему надо дописать вот это
 ```
  --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
-
-
 ```
 Должно выйти примерно так:
 ```
