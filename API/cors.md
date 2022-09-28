@@ -13,13 +13,15 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 > Убедитесь, что гугл хром лежит у вас именно по пути выше или замените его на свой
 
 Windows
-```
 
 Создать новый ярлык для хрома, правой кнопкой, свойства, в поле где стрелка дополнить запись
 вот расположение "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 к нему надо дописать вот это
+```
  --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
 
+
+```
 Должно выйти примерно так:
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
+```"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
 ```
