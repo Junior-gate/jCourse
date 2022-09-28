@@ -15,9 +15,10 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 Windows
 
 Создать новый ярлык для хрома, правой кнопкой, свойства, в поле где стрелка дополнить запись
-Вот расположение:
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-К нему надо дописать вот это:
+<br>
+Вот расположение:<br>
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"<br>
+К нему надо дописать вот это:<br>
 ```
  --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
 ```
