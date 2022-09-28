@@ -23,5 +23,6 @@ Windows
 
 ```
 Должно выйти примерно так:
-```"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
+```
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession" --disable-site-isolation-trials
 ```
