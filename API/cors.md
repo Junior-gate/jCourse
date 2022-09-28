@@ -6,13 +6,13 @@
 
 Проще всего это сделать в гугл хром, запустив его через командную строку:
 
-Mac
+### **Mac**
 ```
 open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security --ignore-certificate-errors
 ```
 > Убедитесь, что гугл хром лежит у вас именно по пути выше или замените его на свой
 
-Windows
+### **Windows**
 
 Создать новый ярлык для хрома, правой кнопкой, свойства, в поле, где стрелка дополнить запись
 <br>
