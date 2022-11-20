@@ -61,6 +61,18 @@
             "id": 8
         },
         {
+            "name": "git pr",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Git/PullRequest.md",
+            "description": "Как открыть Pull Request",
+            "id": 15
+        },
+        {
+            "name": "git conflics",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Git/Conflics.md",
+            "description": "Как решать конфликты а git",
+            "id": 16
+        },
+        {
             "name": "ts component",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Component.md",
             "description": "Как типизировать компонент",
