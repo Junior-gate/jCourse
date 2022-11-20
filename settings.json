@@ -79,6 +79,12 @@
             "id": 11
         },
         {
+            "name": "ts generic",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Generic.md",
+            "description": "Generic в Typescript",
+            "id": 14
+        },
+        {
             "name": "next base",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Intro.md",
             "description": "Основы работы с Next.js",
