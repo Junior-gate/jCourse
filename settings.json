@@ -1,0 +1,88 @@
+{
+    "courses": [
+        {
+            "name": "bp classnames",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/Сlassnames.md",
+            "description": "Как использовать classnames",
+            "id": 1
+        },
+        {
+            "name": "bp libs",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/LibraryPrice.md",
+            "description": "Что делать если задача требует установки сторонней библиотеки?",
+            "id": 2
+        },
+        {
+            "name": "bp imports",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/Imports.md",
+            "description": "Немного об импорте файлов",
+            "id": 3
+        },
+        {
+            "name": "api cors",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/cors.md",
+            "description": "Как отключить CORS",
+            "id": 0
+        },
+        {
+            "name": "api endpoints",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/endpoints.md",
+            "description": "Как использовать endpoints",
+            "id": 4
+        },
+        {
+            "name": "api env",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/env.md",
+            "description": "Как использовать env",
+            "id": 5
+        },
+        {
+            "name": "api instance",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/instance.md",
+            "description": "Как использовать instance",
+            "id": 6
+        },
+        {
+            "name": "api base",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/request.md",
+            "description": "Основы работы с API",
+            "id": 7
+        },
+        {
+            "name": "api swagger",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/API/swagger.md",
+            "description": "Как работать с Swagger UI",
+            "id": 13
+        },
+        {
+            "name": "git base",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Git/intro.md",
+            "description": "Основы работы с GIT",
+            "id": 8
+        },
+        {
+            "name": "ts component",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Component.md",
+            "description": "Как типизировать компонент",
+            "id": 9
+        },
+        {
+            "name": "ts enum",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Enum.md",
+            "description": "Как использовать instance",
+            "id": 10
+        },
+        {
+            "name": "ts base",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Base.md",
+            "description": "Основы работы с Typescript",
+            "id": 11
+        },
+        {
+            "name": "next base",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Intro.md",
+            "description": "Основы работы с Next.js",
+            "id": 12
+        },
+    ]
+}
