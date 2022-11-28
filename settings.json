@@ -7,46 +7,70 @@
             "id": 1
         },
         {
+            "name": "bp comments",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/Сomments.md",
+            "description": "Как грамотно писать комментарии в коде",
+            "id": 2
+        },
+        {
+            "name": "bp files structure",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/FilesStructure.md",
+            "description": "Структура проекта на примере featured slice design",
+            "id": 3
+        },
+        {
+            "name": "bp mocks",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/Mocks.md",
+            "description": "Что такое 'моки' и как с ними работать",
+            "id": 4
+        },
+        {
+            "name": "bp preserve text",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/PreserveTextFromServer.md",
+            "description": "О работе с текстами в react",
+            "id": 5
+        },
+        {
             "name": "bp libs",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/LibraryPrice.md",
             "description": "Что делать если задача требует установки сторонней библиотеки?",
-            "id": 2
+            "id": 6
         },
         {
             "name": "bp imports",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/BestPractices/Imports.md",
             "description": "Немного об импорте файлов",
-            "id": 3
+            "id": 7
         },
         {
             "name": "api cors",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/API/cors.md",
             "description": "Как отключить CORS",
-            "id": 0
+            "id": 8
         },
         {
             "name": "api endpoints",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/API/endpoints.md",
             "description": "Как использовать endpoints",
-            "id": 4
+            "id": 9
         },
         {
             "name": "api env",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/API/env.md",
             "description": "Как использовать env",
-            "id": 5
+            "id": 10
         },
         {
             "name": "api instance",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/API/instance.md",
             "description": "Как использовать instance",
-            "id": 6
+            "id": 11
         },
         {
             "name": "api base",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/API/request.md",
             "description": "Основы работы с API",
-            "id": 7
+            "id": 12
         },
         {
             "name": "api swagger",
@@ -58,7 +82,7 @@
             "name": "git base",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Git/intro.md",
             "description": "Основы работы с GIT",
-            "id": 8
+            "id": 14
         },
         {
             "name": "git pr",
@@ -76,31 +100,91 @@
             "name": "ts component",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Component.md",
             "description": "Как типизировать компонент",
-            "id": 9
+            "id": 17
         },
         {
             "name": "ts enum",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Enum.md",
             "description": "Как использовать instance",
-            "id": 10
+            "id": 18
         },
         {
             "name": "ts base",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Base.md",
             "description": "Основы работы с Typescript",
-            "id": 11
+            "id": 19
         },
         {
             "name": "ts generic",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/Generic.md",
             "description": "Generic в Typescript",
-            "id": 14
+            "id": 20
+        },
+        {
+            "name": "ts react",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Typescript/React.md",
+            "description": "Типизация React в Typescript",
+            "id": 21
+        },
+        {
+            "name": "react composition",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/React/Composition.md",
+            "description": "",
+            "id": 22
+        },
+        {
+            "name": "react composition",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/React/DefaultProps.md",
+            "description": "Обрабатываем props, делаем props по умолчанию",
+            "id": 23
+        },
+        {
+            "name": "react localization translate",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/React/Localization.md",
+            "description": "Как работать с мультиязычностью?",
+            "id": 24
         },
         {
             "name": "next base",
             "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Intro.md",
             "description": "Основы работы с Next.js",
-            "id": 12
+            "id": 25
         },
+        {
+            "name": "next routing",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Routing/Routing.md",
+            "description": "Как работает роутинг в Next.js",
+            "id": 26
+        },
+        {
+            "name": "next global styles",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/GlobalStyles.md",
+            "description": "Глобальные стили в Next.js",
+            "id": 27
+        },
+        {
+            "name": "next image",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Image.md",
+            "description": "Работа с картинками в Next.js",
+            "id": 28
+        },
+        {
+            "name": "next page clones",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/PagesClone.md",
+            "description": "Как создать страницу в Next.js",
+            "id": 29
+        },
+        {
+            "name": "next navigation",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Intro.md",
+            "description": "Навигация в Next.js",
+            "id": 30
+        },
+        {
+            "name": "next layout",
+            "url": "https://github.com/Junior-gate/jCourse/blob/main/Next/Layout.md",
+            "description": "Как создать и работать с Layout в Next.js",
+            "id": 31
+        }
     ]
 }
