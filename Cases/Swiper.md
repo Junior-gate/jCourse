@@ -26,7 +26,7 @@ export const Slider = () => {
 };
 ```
 
-## Подключение модулей
+### Подключение модулей
 
 
 ```jsx
@@ -53,7 +53,7 @@ export const Slider = () => {
   );
 };
 ```
-## Кастомная пагинация (точки)
+### Кастомная пагинация (точки)
 
 ```jsx
 export const Slider = () => {
@@ -74,7 +74,47 @@ export const Slider = () => {
     );
 };
 ```
-## Кастомная навигация (стрелки)
+Стилизация кастомной пагинации
+```jsx
+ const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+        return '<span class="'+className+' custom-pagination "></span>';
+        // здесь className нужен обязательно, 
+        // в коде вместо него будет подставлен класс 'swiper-pagination-bullet'
+
+        // custom-pagination это дополнительный класс для стилизации
+        //   вместо <span></span> можно использовать любой тэг
+    },
+  };
+```
+```css
+/* ❌ Wrong: */
+.custom-pagination{
+  width: 20px ;
+  height: 20px ;
+  background-color: red ;
+}
+.custom-pagination.swiper-pagination-bullet-active{
+  width: 20px ;
+  height: 20px ;
+  background-color: blue ;
+}
+
+/* ✅ Correct: */
+.swiper-pagination-bullet.custom-pagination{
+  width: 20px ;
+  height: 20px ;
+  background-color: red ;
+}
+.swiper-pagination-bullet.custom-pagination.swiper-pagination-bullet-active{
+  width: 20px ;
+  height: 20px ;
+  background-color: blue ;
+}
+```
+
+### Кастомная навигация (стрелки)
 
 ```jsx
 export const Slider = () => {
@@ -103,10 +143,12 @@ export const Slider = () => {
 ```
 
 ## Swiper Thumbs
-Thumbs - это пагинация слайдера в виде галереи картинок
 
----
-Для обычного React приложения
+### Thumbs - это пагинация в слайдере в виде галереи картинок
+
+![Пример](/assets/images/swiper_thumbs_example.png)
+
+### Для обычного React приложения
 ```jsx
   import { useState } from 'react';
   import { Swiper, SwiperSlide } from 'swiper/react';
@@ -135,7 +177,7 @@ Thumbs - это пагинация слайдера в виде галереи �
     )
   }
 ```
-Для приложения с Next.js
+### Для приложения с Next.js
 ```jsx
 export const SliderWithThumbsForNext = ({ images }) => {
 
