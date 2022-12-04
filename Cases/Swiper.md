@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 
-export const Slider = () => {
+export const Swiper = () => {
   return (
     <Swiper>
       <SwiperSlide>Slide 1</SwiperSlide>
@@ -37,7 +37,7 @@ import { Navigation, Pagination } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export const Slider = () => {
+export const Swiper = () => {
   return (
     <Swiper
         // обязательно добавить здесь модули, которые мы используем 
@@ -56,7 +56,7 @@ export const Slider = () => {
 ### Кастомная пагинация (точки)
 
 ```jsx
-export const Slider = () => {
+export const Swiper = () => {
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {
@@ -117,7 +117,7 @@ export const Slider = () => {
 ### Кастомная навигация (стрелки)
 
 ```jsx
-export const Slider = () => {
+export const Swiper = () => {
     return (
         <div>
             <Swiper
@@ -142,9 +142,8 @@ export const Slider = () => {
 };
 ```
 
-## Swiper Thumbs
-
-### Thumbs - это пагинация в слайдере в виде галереи картинок
+### Swiper Thumbs
+Thumbs - это пагинация в слайдере в виде галереи картинок
 
 ![Пример](/assets/images/swiper_thumbs_example.png)
 
@@ -154,7 +153,7 @@ export const Slider = () => {
   import { Swiper, SwiperSlide } from 'swiper/react';
   import { Thumbs } from 'swiper';
 
-  export const SliderWithThumbs = () => {
+  export const SwiperWithThumbs = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
@@ -179,7 +178,7 @@ export const Slider = () => {
 ```
 ### Для приложения с Next.js
 ```jsx
-export const SliderWithThumbsForNext = ({ images }) => {
+export const SwiperWithThumbsForNext = ({ images }) => {
 
   const swiperRef = useRef<HTMLDivElement | null>(null)
 // функция котрая будет переключать слайды
