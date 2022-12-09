@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 
-export const Slider = () => {
+export const Swiper = () => {
   return (
     <Swiper>
       <SwiperSlide>Slide 1</SwiperSlide>
@@ -26,7 +26,7 @@ export const Slider = () => {
 };
 ```
 
-## Подключение модулей
+### Подключение модулей
 
 
 ```jsx
@@ -37,7 +37,7 @@ import { Navigation, Pagination } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export const Slider = () => {
+export const Swiper = () => {
   return (
     <Swiper
         // обязательно добавить здесь модули, которые мы используем 
@@ -53,10 +53,10 @@ export const Slider = () => {
   );
 };
 ```
-## Кастомная пагинация (точки)
+### Кастомная пагинация (точки)
 
 ```jsx
-export const Slider = () => {
+export const Swiper = () => {
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {
@@ -74,10 +74,50 @@ export const Slider = () => {
     );
 };
 ```
-## Кастомная навигация (стрелки)
+Стилизация кастомной пагинации
+```jsx
+ const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+        return '<span class="'+className+' custom-pagination "></span>';
+        // здесь className нужен обязательно, 
+        // в коде вместо него будет подставлен класс 'swiper-pagination-bullet'
+
+        // custom-pagination это дополнительный класс для стилизации
+        //   вместо <span></span> можно использовать любой тэг
+    },
+  };
+```
+```css
+/* ❌ Wrong: */
+.custom-pagination{
+  width: 20px ;
+  height: 20px ;
+  background-color: red ;
+}
+.custom-pagination.swiper-pagination-bullet-active{
+  width: 20px ;
+  height: 20px ;
+  background-color: blue ;
+}
+
+/* ✅ Correct: */
+.swiper-pagination-bullet.custom-pagination{
+  width: 20px ;
+  height: 20px ;
+  background-color: red ;
+}
+.swiper-pagination-bullet.custom-pagination.swiper-pagination-bullet-active{
+  width: 20px ;
+  height: 20px ;
+  background-color: blue ;
+}
+```
+
+### Кастомная навигация (стрелки)
 
 ```jsx
-export const Slider = () => {
+export const Swiper = () => {
     return (
         <div>
             <Swiper
@@ -102,17 +142,18 @@ export const Slider = () => {
 };
 ```
 
-## Swiper Thumbs
-Thumbs - это пагинация слайдера в виде галереи картинок
+### Swiper Thumbs
+Thumbs - это пагинация в слайдере в виде галереи картинок
 
----
-Для обычного React приложения
+![Пример](/assets/images/swiper_thumbs_example.png)
+
+### Для обычного React приложения
 ```jsx
   import { useState } from 'react';
   import { Swiper, SwiperSlide } from 'swiper/react';
   import { Thumbs } from 'swiper';
 
-  export const SliderWithThumbs = () => {
+  export const SwiperWithThumbs = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
@@ -135,9 +176,9 @@ Thumbs - это пагинация слайдера в виде галереи �
     )
   }
 ```
-Для приложения с Next.js
+### Для приложения с Next.js
 ```jsx
-export const SliderWithThumbsForNext = ({ images }) => {
+export const SwiperWithThumbsForNext = ({ images }) => {
 
   const swiperRef = useRef<HTMLDivElement | null>(null)
 // функция котрая будет переключать слайды
