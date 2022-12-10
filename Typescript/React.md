@@ -1,6 +1,6 @@
 # React types
 
-Немного о типизации в React:
+Немного о типизации в React. 
 
 ### Events
 ```ts
@@ -12,11 +12,11 @@ interface Props {
 }
 ```
 
-### component
+### Component
 
  [Как типизировать компоненты?](Component.md)
 
-В пропсах:
+### Component as props
 ```ts
     interface Props {
         children: ReactNode
@@ -28,6 +28,8 @@ interface Props {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [filter, setFilter] = useState<string | null>(null)
   const [user, setUser] = useState<User>(props.user)
+  const [items, setItems] = useState<Item[]>([])
+
 ```
 
 ### refs
