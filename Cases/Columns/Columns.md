@@ -21,7 +21,7 @@
      + Возможны дополнения...
      + Черновик - раздел для `Тимлидов` чтобы готовить задачи. Отсюда задачи не брать!
 
-![columns1](/Cases/Columns/image/columns1.jpg)
+![columns1](/Cases/Columns/image/card1.jpg)
 
 
 
@@ -34,11 +34,11 @@
 * Создание карточки
    + Кликаем Добавить карточку:
 
-      -![card1](/Cases/Columns/image/card1.png)
+      -![card1](/Cases/Columns/image/columns1.png)
 
    + Вводим свое имя и кликаем на пустое место за карточкой:
 
-      -![card2](/Cases/Columns/image/card2.png)
+      -![card2](/Cases/Columns/image/columns2.png)
 
    + Повторяем это в колонках кроме - `Правила, Задачи` создаем карточку. 
    + Готово
