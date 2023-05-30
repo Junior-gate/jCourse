@@ -54,7 +54,7 @@ refactor logo component
 
 > `git add .` 5. Делаем коммит:
 > `git commit -m ‘add header component’` 6. Отправить ветку в github:
-> `git push origin feat_task_name` 7. Вернуться в develop:
+> `git push origin feat__task_name` 7. Вернуться в develop:
 > `git checkout develop` 8. Обновить данные с репо:
 > `git pull`
 
